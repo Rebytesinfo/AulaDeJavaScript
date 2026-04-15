@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Mensagem em JavaScript</h1>
+    <button onclick="
+    
+    alert('Bom dia');
+    
+    ">Mensagem de Bom dia</button>
+
+    <h1>Soma de Dois numeros em Java Scritp</h1>
+
+    <button onclick="
+        let valor1;
+        let valor2;
+        valor1 = Number(prompt('Digite o primeiro número:'));
+        valor2 = Number(prompt('Digite o segundo numnero:'));
+        let somar = valor1 + valor2;
+       alert(somar);
+        
+        ">
+        Somar dois Numeros</button>
+
+    <H1>Função de Soma de dois Numeros em JavaScritp</H1>
+    <script>
+        function somar() {
+
+            let valor1;
+            let valor2;
+            let soma;
+
+            valor1 = Number(prompt('Digite o Primeiro Numero'));
+            valor2 = Number(prompt('Digite o Segundo Numero'));
+
+            soma = valor1 + valor2;
+
+            alert(soma);
+
+        }
+    </script>
+
+    <button onclick="somar()">Somar Numeros por funçãor</button>
+
+
+    <h1>Array em JavaScript</h1>
+    <button onclick="
+        let nome = ['Tião', 'Jurema', 'Etelvina'];
+       
+       alert(nome[1]);
+       
+     nomes.push('Maria');
+
+        
+        
+        ">Carros no Array</button>
+    <h1>Dados Inseridos pelo Usuario no Array</h1>
+    <button onclick="
+        
+        let carros = [];
+        for (let i = 0; i < 3; i++){
+        let nome = prompt('Digite os carros a serem cadastrados');
+        carros.push(nome);
+}
+       alert(carros);
+        
+        ">Inserindo nomes de carro</button>
+
+    <h1>Condição IF JavaScript</h1>
+
+    <button onclick="
+   let age = prompt('Informe a sua idade');
+   if (age < 18){
+   alert('Usuário menor de idade');
+   }else{
+   alert('Usuário maior de idade');
+   }
+    ">Verificar Idade</button>
+
+
+</body>
+
+</html>
